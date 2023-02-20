@@ -1,0 +1,32 @@
+main {
+  width: 255px;
+  text-align: center;
+  font-family: system-ui, sans-serif;
+  color: white;
+  margin: auto;
+  font-weight: 500;
+}
+
+main div:first-of-type {
+  background-color: #f25;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+
+span {
+  color: #fa0;
+}
+
+main div:not(div:first-of-type) {
+  width: 80px;
+  height: 80px;
+  background-color: #f25;
+  float: left;
+  margin: 2px;
+  font-size: 50px;
+}
+
+main div:not(div:first-of-type):hover {
+  background-color: black;
+  cursor: pointer;
+}
