@@ -53,5 +53,3 @@ function winner() {
     afterWinning(3, 5, 7);
   }
 }
-
-
